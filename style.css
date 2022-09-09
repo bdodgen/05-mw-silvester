@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url("img/background2.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-overflow: hidden;
+  color: white;
+  font-family: "Courier Prime", "Courier New", Courier, monospace;
+}
+
+.sylvester {
+  width: 350px;
+  position: fixed;
+  top: 50px;
+  right: 50px;
+}
+
+.body__text {
+  position: fixed;
+  top: 50px;
+  left: 50px;
+}
